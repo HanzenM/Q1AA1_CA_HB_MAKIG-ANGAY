@@ -89,45 +89,22 @@
     transition: 0.4s;
 }
 
-body{ 
-    background-image: url(images/monkey.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-}
-
-.banner{
-    display:block;
+.gallery h1{
     text-align:left;
-    margin-top:300px;
-    margin-left:100px;
-    color:gold;
-}
-.heading{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:30px;
-}
-.paragraph{
-    font-size:20px;
-}
-.heading b, .paragraph b{
-    color: red;
-}
-.link a{
-    padding: 2px 7px 2px 7px;
-    text-decoration:none;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size:large;
-    border: 1px solid red;
-    background-color: gold;
-    color: red;
-    transition:0.4s;
+    margin-top:100px;
+    margin-left:50px;
 }
 
-.link a:hover{
-    padding: 5px 10px 5px 10px;
-    background-color:orange;
-    color: darkred;
-    border: 1px solid darkred;
-    transition: 0.4s;
+.imagescontainer{
+    margin-left:500px;
+}
+
+.images{
+    display:inline-block;
+    padding:20px;
+}
+
+.images img{
+    width:300px;
+    height:300px;
 }
